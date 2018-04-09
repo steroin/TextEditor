@@ -31,6 +31,8 @@ apply plugin: 'javafx-gradle-plugin'
 
 jfx {
     // minimal requirement for jfxJar-task
+    mainClass = 'pl.texteditor.example.Main'
+
     // minimal requirement for jfxNative-task
     vendor = 'Sergiusz Pogorzała'
     jfxAppOutputDir = "out/production/jfx/app"
